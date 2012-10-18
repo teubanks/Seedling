@@ -16,6 +16,7 @@
 		40B788471630922C009AA0DC /* libSeedling.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40B7882E1630922C009AA0DC /* libSeedling.a */; };
 		40B7884D1630922C009AA0DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40B7884B1630922C009AA0DC /* InfoPlist.strings */; };
 		40B788501630922C009AA0DC /* SeedlingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B7884F1630922C009AA0DC /* SeedlingTests.m */; };
+		40B7886016309429009AA0DC /* NSManagedObject+Seed.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B7885F16309429009AA0DC /* NSManagedObject+Seed.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		40B7884C1630922C009AA0DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		40B7884E1630922C009AA0DC /* SeedlingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeedlingTests.h; sourceTree = "<group>"; };
 		40B7884F1630922C009AA0DC /* SeedlingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeedlingTests.m; sourceTree = "<group>"; };
+		40B7885E16309429009AA0DC /* NSManagedObject+Seed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+Seed.h"; path = "Categories/NSManagedObject+Seed.h"; sourceTree = "<group>"; };
+		40B7885F16309429009AA0DC /* NSManagedObject+Seed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+Seed.m"; path = "Categories/NSManagedObject+Seed.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,7 @@
 		40B788331630922C009AA0DC /* Seedling */ = {
 			isa = PBXGroup;
 			children = (
+				40B7885C163093D6009AA0DC /* Categories */,
 				40B788361630922C009AA0DC /* Seedling.h */,
 				40B788381630922C009AA0DC /* Seedling.m */,
 				40B788341630922C009AA0DC /* Supporting Files */,
@@ -143,6 +147,15 @@
 				40B7884B1630922C009AA0DC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40B7885C163093D6009AA0DC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				40B7885E16309429009AA0DC /* NSManagedObject+Seed.h */,
+				40B7885F16309429009AA0DC /* NSManagedObject+Seed.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40B788391630922C009AA0DC /* Seedling.m in Sources */,
+				40B7886016309429009AA0DC /* NSManagedObject+Seed.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +411,7 @@
 				40B788551630922C009AA0DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40B788561630922C009AA0DC /* Build configuration list for PBXNativeTarget "SeedlingTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +420,7 @@
 				40B788581630922C009AA0DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
