@@ -17,6 +17,7 @@
 		40B7884D1630922C009AA0DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40B7884B1630922C009AA0DC /* InfoPlist.strings */; };
 		40B788501630922C009AA0DC /* SeedlingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B7884F1630922C009AA0DC /* SeedlingTests.m */; };
 		40B7886016309429009AA0DC /* NSManagedObject+Seed.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B7885F16309429009AA0DC /* NSManagedObject+Seed.m */; };
+		40B788621630A32E009AA0DC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40B788611630A32E009AA0DC /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		40B7884F1630922C009AA0DC /* SeedlingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeedlingTests.m; sourceTree = "<group>"; };
 		40B7885E16309429009AA0DC /* NSManagedObject+Seed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+Seed.h"; path = "Categories/NSManagedObject+Seed.h"; sourceTree = "<group>"; };
 		40B7885F16309429009AA0DC /* NSManagedObject+Seed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+Seed.m"; path = "Categories/NSManagedObject+Seed.m"; sourceTree = "<group>"; };
+		40B788611630A32E009AA0DC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40B788621630A32E009AA0DC /* CoreData.framework in Frameworks */,
 				40B788321630922C009AA0DC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,6 +88,7 @@
 		40B788231630922C009AA0DC = {
 			isa = PBXGroup;
 			children = (
+				40B788611630A32E009AA0DC /* CoreData.framework */,
 				40B788331630922C009AA0DC /* Seedling */,
 				40B788481630922C009AA0DC /* SeedlingTests */,
 				40B788301630922C009AA0DC /* Frameworks */,
